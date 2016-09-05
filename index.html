@@ -1,0 +1,80 @@
+
+	<html>
+		<head>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 2000, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script><meta charset="utf-8" />
+			<title>Ceren Gül Photography</title>
+	
+			<link href="stylesheet/stylesheet.css" type="text/css" rel="stylesheet" />
+		</Head>
+<body>
+
+		<div class="navbar">
+			<a href="#content">Ana Sayfa </a>
+			<a href="#hakkinda">Hakkında </a>
+			<a href="#albumler">Albümler </a>
+			<a href="#iletisim">İletişim </a>
+		</div>
+	
+		<div id="content">
+			<div id="cover">
+			
+				<div id="coverphoto">
+					<img class= "center" src="images/ceren-portrait.jpg" />
+					<p id="pheadertext">CEREN GÜL <br />PHOTOGRAPHY</p>
+				</div>
+			</div>
+		<div id="hakkinda">
+			<p>
+			Born in Amasya<br />
+			Living in Antalya<br />
+			Taking pictures in anywhere
+			</p>
+		</div>
+		
+		<div id="albumler">
+		<h1>ALBÜMLER</h1>
+			<image class="portimage" src="images/portfolyo1.jpg">
+			<image class="portimage" src="images/portfolio-2.jpg">
+			<image class="portimage" src="images/portfolio-3.jpg">
+		<image class="portimage" src="images/portfolio-4.jpg">
+		<image class="portimage" src="images/portfolio-5.jpg">
+		<image class="portimage" src="images/portfolio-6.jpg">
+		<image class="portimage" src="images/portfolio-7.jpg">
+		<image class="portimage" src="images/portfolio-8.jpg">
+		<image class="portimage" src="images/portfolio-9.jpg">
+		<image class="portimage" src="images/portfolio-10.jpg">
+		<image class="portimage" src="images/portfolio-11.jpg">
+		<image class="portimage" src="images/portfolio-12.jpg">
+		<image class="portimage" src="images/portfolio-13.jpg">
+		<image class="portimage" src="images/portfolio-14.jpg">
+		<image class="portimage" src="images/portfolio-15.jpg">
+		<image class="portimage" src="images/portfolio-16.jpg">
+		<image class="portimage" src="images/portfolio-17.jpg">
+		<image class="portimage" src="images/portfolio-18.jpg">
